@@ -1,0 +1,88 @@
+/* ----- Reset global ----- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ----- Style global ----- */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ----- Header ----- */
+header {
+  background: rgba(0,0,0,0.6);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  animation: fadeInUp 1.2s ease-in-out;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffdd59;
+}
+
+/* ----- Sections ----- */
+section {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  animation: fadeIn 1s ease-in-out;
+}
+
+h2 {
+  color: #2575fc;
+  margin-bottom: 15px;
+  border-left: 6px solid #6a11cb;
+  padding-left: 10px;
+}
+
+/* ----- Programme ----- */
+#programme ul {
+  list-style: none;
+}
+
+#programme li {
+  background: #f1f1f1;
+  padding: 10px;
+  margin: 8px 0;
+  border-left: 5px solid #2575fc;
+  transition: transform 0.2s;
+}
+
+#programme li:hover {
+  transform: translateX(5px);
+  background: #eaf2ff;
+}
+
+/* ----- Formateurs ----- */
+.formateur {
+  text-align: center;
+  margin: 20px 0;
+  displa
